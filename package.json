@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/EBAC-QE/teste-e2e-ebac/issues"
   },
-  "homepage": "https://github.com/EBAC-QE/teste-e2e-ebac#readme"
+  "homepage": "https://github.com/EBAC-QE/teste-e2e-ebac#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^10.0.0"
+  }
 }

@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-
+import { faker } from '@faker-js/faker';
 import produtoPage from "../support/page_objects/produto.page";
 
 
