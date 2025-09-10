@@ -1,5 +1,4 @@
 /// <reference types="cypress" />
-import { faker } from '@faker-js/faker';
 import produtoPage from "../support/page_objects/produto.page";
 
 
@@ -52,10 +51,6 @@ describe('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         cy.get('#place_order').click()
         cy.get('.woocommerce-notice').should('contain', 'Obrigado. Seu pedido foi recebido.')
 
-    })
-
- 
+    }) 
  });
-
-
 })
